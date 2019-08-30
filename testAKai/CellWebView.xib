@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellWebView" id="gTV-IL-0wX" customClass="CellWebView" customModule="testAKai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="308" height="193"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="308" height="193"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cJJ-0H-Zbk">
+                        <rect key="frame" x="0.0" y="0.0" width="308" height="193"/>
+                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </webView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cJJ-0H-Zbk" secondAttribute="bottom" id="5xW-wp-Qgv"/>
+                <constraint firstItem="cJJ-0H-Zbk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="AZU-51-tbQ"/>
+                <constraint firstAttribute="trailing" secondItem="cJJ-0H-Zbk" secondAttribute="trailing" id="RkJ-Sn-9Zt"/>
+                <constraint firstItem="cJJ-0H-Zbk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="YQd-MJ-QUo"/>
+            </constraints>
+            <size key="customSize" width="308" height="193"/>
+            <connections>
+                <outlet property="webView" destination="cJJ-0H-Zbk" id="J6c-i1-vWo"/>
+            </connections>
+            <point key="canvasLocation" x="154" y="123.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>use your camera</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>get your location</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>use your image</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LmJmNjIwNjY4MzljZDQwZWFhYzI0MGRhNTJkNmU4MDRmIiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi5lMTFjOGZiZTM0NWM0ODc5OTU0MjczZjUxZWMyOTFjNyIsImJ1bmRsZVNlZWRJZCI6ImNvbS53YXl3YW5nLnRlc3RBS2FpIiwiYnVuZGxlSWQiOiJjb20ud2F5d2FuZy50ZXN0QUthaSIsImlzcyI6IkFtYXpvbiIsInR5cGUiOiJBUElLZXkiLCJhcHBWYXJpYW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1jbGllbnQuY2I4ZWQwZWY1MjlkNGE4YjljNWMzYjNhOGVhOTJhNzgiLCJ0cnVzdFBvb2wiOm51bGwsImFwcElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50LmNiOGVkMGVmNTI5ZDRhOGI5YzVjM2IzYThlYTkyYTc4IiwiaWQiOiJmZmM5MjY0MS0wNDY1LTExZTctOTUyYi04ZDA1ZjVjOTNhZjQiLCJpYXQiOiIxNDg5MDIyMTc4NzcwIn0=.JHXAlf+PbhzrkbnujFsUsvR//cYcVXwG/NCJg12tT/VMr8SRORrJ/be1bO9zRShG1QcUr/5D9SNsPU2vL1BMO0oXgFaTI3xFMHJVH3f2/vwsmvqVTMpMt4dFbn5BEJRwVtEc1j9b04WZ6WE0bipGgVWisQEEAVgmfUdHBbKqNUCzSnM5hSzYDjEy4jZWJKD2p8aesKVRlp7dwsUOGt5oakHyiK9xbRNBJAv+f7vWObSujFVQyNKqTNwEAd3vZVMDnUuop4Wxs/6pBXziYiSU7ABoG2wvFhote0iLMpAMXTojoXrMoqmHcNseUaNnM6H9kTzzbiBMFXVy+RlPL+Zybg==</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.waywang.testAKai</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-com.waywang.testAKai</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
